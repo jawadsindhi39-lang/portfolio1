@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Usama - CV Information</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#135bec",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#111318] dark:text-white/90">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- TopNavBar -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-b-gray-200/50 dark:border-b-gray-800/50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm px-4 sm:px-10 md:px-20 lg:px-40 py-3">
+<a class="flex items-center gap-4 text-[#111318] dark:text-white/90" href="#home">
+<div class="size-6 text-primary">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 30.5736C16.7203 29.8826 20.2244 29.4783 24 29.4783C27.7756 29.4783 31.2797 29.8826 34.1739 30.5736C36.9144 31.2278 39.9967 32.7669 41.3563 33.8352L24.8486 7.36089C24.4571 6.73303 23.5429 6.73303 23.1514 7.36089L6.64374 33.8352C8.00331 32.7669 11.0856 31.2278 13.8261 30.5736Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 35.764C39.9944 35.7463 39.9875 35.7155 39.9748 35.6706C39.9436 35.5601 39.8949 35.4259 39.8346 35.2825C39.8168 35.2403 39.7989 35.1993 39.7813 35.1602C38.5103 34.2887 35.9788 33.0607 33.7095 32.5189C30.9875 31.8691 27.6413 31.4783 24 31.4783C20.3587 31.4783 17.0125 31.8691 14.2905 32.5189C12.0012 33.0654 9.44505 34.3104 8.18538 35.1832C8.17384 35.2075 8.16216 35.233 8.15052 35.2592C8.09919 35.3751 8.05721 35.4886 8.02977 35.589C8.00356 35.6848 8.00039 35.7333 8.00004 35.7388C8.00004 35.739 8 35.7393 8.00004 35.7388C8.00004 35.7641 8.0104 36.0767 8.68485 36.6314C9.34546 37.1746 10.4222 37.7531 11.9291 38.2772C14.9242 39.319 19.1919 40 24 40C28.8081 40 33.0758 39.319 36.0709 38.2772C37.5778 37.7531 38.6545 37.1746 39.3151 36.6314C39.9006 36.1499 39.9857 35.8511 39.998 35.764ZM4.95178 32.7688L21.4543 6.30267C22.6288 4.4191 25.3712 4.41909 26.5457 6.30267L43.0534 32.777C43.0709 32.8052 43.0878 32.8338 43.104 32.8629L41.3563 33.8352C43.104 32.8629 43.1038 32.8626 43.104 32.8629L43.1051 32.865L43.1065 32.8675L43.1101 32.8739L43.1199 32.8918C43.1276 32.906 43.1377 32.9246 43.1497 32.9473C43.1738 32.9925 43.2062 33.0545 43.244 33.1299C43.319 33.2792 43.4196 33.489 43.5217 33.7317C43.6901 34.1321 44 34.9311 44 35.7391C44 37.4427 43.003 38.7775 41.8558 39.7209C40.6947 40.6757 39.1354 41.4464 37.385 42.0552C33.8654 43.2794 29.133 44 24 44C18.867 44 14.1346 43.2794 10.615 42.0552C8.86463 41.4464 7.30529 40.6757 6.14419 39.7209C4.99695 38.7775 3.99999 37.4427 3.99999 35.7391C3.99999 34.8725 4.29264 34.0922 4.49321 33.6393C4.60375 33.3898 4.71348 33.1804 4.79687 33.0311C4.83898 32.9556 4.87547 32.8935 4.9035 32.8471C4.91754 32.8238 4.92954 32.8043 4.93916 32.7889L4.94662 32.777L4.95178 32.7688ZM35.9868 29.004L24 9.77997L12.0131 29.004C12.4661 28.8609 12.9179 28.7342 13.3617 28.6282C16.4281 27.8961 20.0901 27.4783 24 27.4783C27.9099 27.4783 31.5719 27.8961 34.6383 28.6282C35.082 28.7342 35.5339 28.8609 35.9868 29.004Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-[#111318] dark:text-white/90 text-lg font-bold leading-tight tracking-[-0.015em]">Usama</h2>
+</a>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-[#111318] dark:text-white/90 text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary" href="#home">Home</a>
+<a class="text-[#111318] dark:text-white/90 text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary" href="#about">About</a>
+<a class="text-[#111318] dark:text-white/90 text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary" href="#education">Education</a>
+<a class="text-[#111318] dark:text-white/90 text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary" href="#skills">Skills</a>
+<a class="text-[#111318] dark:text-white/90 text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary" href="#projects">Projects</a>
+</div>
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors" href="#contact">
+<span class="truncate">Contact Me</span>
+</a>
+</div>
+</header>
+<main class="flex-1">
+<div class="px-4 sm:px-10 md:px-20 lg:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<!-- Hero Section -->
+<section class="py-20" id="home">
+<div class="@container">
+<div class="flex flex-col-reverse gap-10 px-4 py-10 @[480px]:gap-12 @[864px]:flex-row">
+<div class="flex flex-col gap-6 @[480px]:min-w-[400px] @[480px]:gap-8 @[864px]:justify-center">
+<div class="flex flex-col gap-2 text-left">
+<h1 class="text-[#111318] dark:text-white/90 text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">Usama - Graphic Designer</h1>
+<h2 class="text-[#111318]/80 dark:text-white/70 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">To work in an encouraging environment that allows me to use and enhance my skills, knowledge, and experience.</h2>
+</div>
+<div class="flex-wrap gap-3 flex">
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:bg-primary/90 transition-colors" href="#projects">
+<span class="truncate">View Projects</span>
+</a>
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary/20 dark:bg-primary/30 text-primary dark:text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] hover:bg-primary/30 dark:hover:bg-primary/40 transition-colors" href="#contact">
+<span class="truncate">Contact Me</span>
+</a>
+</div>
+</div>
+<div class="w-full h-80 bg-center bg-no-repeat bg-cover rounded-xl @[480px]:h-auto @[480px]:min-w-[300px] @[864px]:w-full" data-alt="professional headshot of Usama" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAVvEtJ8rH_6I26wTgAOohfJlJdhPn3wBSg-o8KGDwNf4BqZAVvtseny1MdB7yJGMG0BDEf3MFyKAi8M6gCKVT6dPJhr1xQ7ESAy1Rpdq2wA290XXG8Y_0w29ZYqk1_NdrZbA9pHk9-NoxuBYYX8vx6Mpex_CSBH1H0cowSxFom0wxJxa9CZC5lCE6G_SkCMPzGluXP03nLiIZQQU4f5WowBmwsufWt4B6gCm7PosXjaoPUzuDKVs0n4QLhMONZtNDxcjt9D4IsNU8");'></div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-20" id="about">
+<h2 class="text-[#111318] dark:text-white/90 text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Personal Information</h2>
+<p class="text-[#111318]/80 dark:text-white/70 text-base font-normal leading-normal pb-3 pt-1 px-4">Father Name: Muhammad Bux | Date of Birth: 07/03/2008 | Martial Status: Single | Nationality: Pakistani | Religion: Islam | Languages: English, Urdu, Sindhi | Health Status: Healthy | Experience: Fresh</p>
+</section>
+<!-- Education Section -->
+<section class="py-20" id="education">
+<h2 class="text-[#111318] dark:text-white/90 text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-8 pt-5">Education</h2>
+<div class="relative pl-8 sm:pl-10 pr-4">
+<!-- Timeline line -->
+<div class="absolute left-4 sm:left-5 top-2 bottom-2 w-0.5 bg-gray-200 dark:bg-gray-700"></div>
+<!-- Timeline Item 1 -->
+<div class="relative mb-12">
+<div class="absolute -left-12 sm:-left-14 top-1.5 h-6 w-6 rounded-full bg-primary flex items-center justify-center ring-8 ring-background-light dark:ring-background-dark">
+<span class="material-symbols-outlined text-white text-sm">school</span>
+</div>
+
+
+
+</div>
+<!-- Timeline Item 2 -->
+<div class="relative">
+<div class="absolute -left-12 sm:-left-14 top-1.5 h-6 w-6 rounded-full bg-primary flex items-center justify-center ring-8 ring-background-light dark:ring-background-dark">
+<span class="material-symbols-outlined text-white text-sm">school</span>
+</div>
+
+
+
+</div>
+</div>
+<h3>Intermediate - Sukkur Board (A Grade)</h3></section>
+<!-- Skills Section -->
+<section class="py-20" id="skills">
+<h2 class="text-[#111318] dark:text-white/90 text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-8 pt-5">Skills</h2>
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 px-4">
+<div class="flex flex-col items-center gap-2 p-4 bg-white dark:bg-white/5 rounded-lg shadow-sm">
+<img alt="JavaScript Icon" class="h-10 w-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVh1qhjHuJaFs5cGFJStV96wBQm7JQ2GsU_lGrxwGMPUi6LHPEPY8Qe7jn_wDNhTpjbF30GJpIvhW4vZmYh1_HHvzucl8ckFPgiV2N3nroTKnO1vobHT3kOcuOtwPdvEDNGHCHM3cWXuGifQttLpQU6kMUl5zMK0Pp44p2aWiv6lYjY2JmOOZEDD809XldO0ctR8n3d8vn5DUOsj-ym7-g7KX3vEbO-6soHOwTMUNM3ahZxcsmI3CcM6rwp_2Yyh95HaXdJlb5WUE"/>
+<p class="text-sm font-semibold">Graphic Designer</p>
+</div>
+<div class="flex flex-col items-center gap-2 p-4 bg-white dark:bg-white/5 rounded-lg shadow-sm">
+<img alt="TypeScript Icon" class="h-10 w-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBS2kcPIB_TTaN80dK2vLAKfgVPjEUdsmuT2X6azIqCrAW3OgvwuQqAo3waHVYheniL_zTgoTB_H8JHrAQX2CgySTnw3U_XuFTkwFRz-orPZ-db8u-GjyzF_bu6d3BlhFVX-VoGAVIML9J_OK0btihHF8vROEJsmXi5Lf3eM4M0oOYtgMhJiR4XpL-9RvSvLraNjVS3BicRP7YXMUkRIEXpDvd2MKGJJhSR41XpaHY8OPSe9z68A-XgrgQNtjryLMxTu_n27ZTlW5g"/>
+<p class="text-sm font-semibold">Graphic Designer</p>
+</div>
+<div class="flex flex-col items-center gap-2 p-4 bg-white dark:bg-white/5 rounded-lg shadow-sm">
+<img alt="React Icon" class="h-10 w-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdpMRWGyVMMRplL0YdcTbTwWuMLjkIMiBow_bhPXCMNCDlun71XjMMgW3DqW18W2qpr5WaVZxaQ8Lp1DeyjMXdp4iVFi7tnsNfvwZOef6eJjsifcSt5Gm-1o7Fch0Te8R5eGPl-l1wmWlUkc_omekUhprDUFF6K9ncbrBBL8DXWcB_O4hrNJw8EHx9kId9fmnL1mYwXb3AXB2r4XzhdytRiLMCpwDJsiyQIEsfEtvOP6kthAhmdlz3LwtfpSLq4BW9d306j0KgFYM"/>
+<p class="text-sm font-semibold">Graphic Designer</p>
+</div>
+<div class="flex flex-col items-center gap-2 p-4 bg-white dark:bg-white/5 rounded-lg shadow-sm">
+<img alt="Node.js Icon" class="h-10 w-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBirZpLO0TJN-LDVud9GYrHVbb_hdZcka9Zt672VU9YzZ-BnL7F9Q1ecArx6GkBV6_XteK0TWXVW520ZRV0BnjIUn0GbH0pz_wTlXG8YbT0kOBj5zkRD0hNeXUgR3ONgQz7JBD1iFSA8OrqNjhHTzR_P_b-7eKmtaSdLpqQ0YnNbB97rsE2ZTWyuHqy5FUPDMSHRq2JPv0fmEzl63MGZ0lyA9gjxmmCv0__RqJGruFbSXPC7JA241x7T8Z_8oP4zltocKZYUsp5W5A"/>
+<p class="text-sm font-semibold">Graphic Designer</p>
+</div>
+<div class="flex flex-col items-center gap-2 p-4 bg-white dark:bg-white/5 rounded-lg shadow-sm">
+<img alt="Express.js Icon" class="h-10 w-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3NFkUSikBzODqE3SwiGILKwxiU2V7mqjZba6fKnUf4wBaqH9CNGnQfi-EFX9GzHGG8PZj1QwBx3y-qADqU4piHy-K3Aea5d6-v8zOT6Rit4krNY836MlsK1TsbRgMOAfr1XSx5w0ZBOm03xcdANkYMU6naOJz_BZroASP2AZqat27rctj6e0aXo-CHpDZgeX97PhugRsfINz7gfLs66MmGbYkojVt-znHwNxDW_Wb03TwVYCFULlzQ7gHSxqQkAm1HcI46nWSuRo"/>
+<p class="text-sm font-semibold">Graphic Designer</p>
+</div>
+<div class="flex flex-col items-center gap-2 p-4 bg-white dark:bg-white/5 rounded-lg shadow-sm">
+<img alt="MongoDB Icon" class="h-10 w-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAzCqS68rs81Pyf4OJYkTdlco1hhf87PVCmPVOh252LB62mWCd87gRsrgTmKGRf20fIwlBlCvJ0_JbpRXoB_bIqM-qdvUeb3ZPtdXy9o0rPRYgINV2FdhckXF6dEgbmej3YNqqmwJTwMiRrEH0rIEgBHziC8CvPu0QVRDUIBc5EbomWxwjZN4cM0yNDgsQ3wsVaOcXO-SnLCOBP20hTOD27wVdIKgF9R_J-pCRWUULW0b2Vsf40djxWZbKw-WXcw07rhR-vX_bXD0"/>
+<p class="text-sm font-semibold">Graphic Designer</p>
+</div>
+<div class="flex flex-col items-center gap-2 p-4 bg-white dark:bg-white/5 rounded-lg shadow-sm">
+<img alt="PostgreSQL Icon" class="h-10 w-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9akGVbNe2DQ6T3VEdJRenTK0ZCxKykJu-Eo4z_W0js9rVM5yF-Pu9Bg_WHRDBfp6FMRWf_H6sQlidhvw22qeWJEImOX2WN7mvWo3oVxsrA9FpJeEAAfeg008J4LwophSbd-86MrMDApwzBz0iRTv7f3rjKyDZIuvjAOTUQljtxwNzMK1iGyQoUTeCwFgVUh9ypfoOKv-dsoOyhRMrJHEDuzVgj6ejORMdwjwvql7KMCdbxW4I8HEd-sKDtZ7cpD5fibr1Ec-FbaI"/>
+<p class="text-sm font-semibold">Graphic Designer</p>
+</div>
+<div class="flex flex-col items-center gap-2 p-4 bg-white dark:bg-white/5 rounded-lg shadow-sm">
+<img alt="Tailwind CSS Icon" class="h-10 w-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxMcgd6I2nci89YMyRNy85TlwyACTJ8BBu-tUI1TPQh1gJCqAC8ysNK6F2e7q9pFgif9qoyHWoAXlYB59IjVU9YRIuux6CgQxUiw4BQeDi6uYxbcghJtw1OwuCbqPD60r6nhZ-uL7ymYCf19lRGVoHDzoixoC1ZfULPwjbI14bkG3ErPctgDmXZVFBqvdW_HyhRYAvF_V-PQlFW_Q7V725O7N3vSs6RrdfoQnyZiAWdMtGTDyyO3-cEGrLtM1PCX5EabZUy21bTok"/>
+<p class="text-sm font-semibold">Graphic Designer</p>
+</div>
+<div class="flex flex-col items-center gap-2 p-4 bg-white dark:bg-white/5 rounded-lg shadow-sm">
+<img alt="Figma Icon" class="h-10 w-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuNl4TtZZuE_3jZcdvbjTt9wRentS62tmyEhmk6ZrhED6dRhlNqz0BDSijZPoFRDuoxARGfAalWDJe2dIa86v5fgdsAKcAfQHebbVtoGkFpPzoJoOZL2Xd2SUa2o1FI4ERLbzZLmvWLv_8x54ximM4CzE56wPWtFeo0tEC-Z1chLegi8CSJBnUkpG95bDRahvb_a6diiPthcUxv2E1OMhntXV4LCr-CYAyYbG7zgasDXLZcsztLwKERLWVJ4qSl8iDNvQG8QAVc-4"/>
+<p class="text-sm font-semibold">Graphic Designer</p>
+</div>
+<div class="flex flex-col items-center gap-2 p-4 bg-white dark:bg-white/5 rounded-lg shadow-sm">
+<img alt="Git Icon" class="h-10 w-10" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAMNtyJXwpc3SkSJJ0wv0ySci3knWZONaeEe5IFrg-qVgG2Oo4soAkd_dVVXspYB-2QJ8ZFtUuA-ODrGfvA3J3qZBhVO6To7WhBlv3eccqqr15G-sfeqsjmLrWiWNR8k7OQDK9JNpdV83Ya9hCd1GhDeF-TcMCE9TC9fAQEhy9P9kE3TT74pbl6GMAaUfKDU-ptpLaR0d1yuV2D8sU9ucJz7X3wSanjnQIAHfN0ejlTcaiKYtzX5R5wwBbwBcYN-z6Wqpdgu-JbiM"/>
+<p class="text-sm font-semibold">Graphic Designer</p>
+</div>
+</div>
+</section>
+<!-- Projects Section -->
+<section class="py-20" id="projects">
+<h2 class="text-[#111318] dark:text-white/90 text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-8 pt-5">Projects</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-4">
+<!-- Project Card 1 -->
+<div class="bg-white dark:bg-white/5 rounded-lg overflow-hidden shadow-md flex flex-col">
+<img class="w-full h-48 object-cover" data-alt="Screenshot of a project management dashboard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXJTTZQrAxg2qfZMnK-0z0QtqZfUvrVXzMwvQyZV9dRT7s4BUbiEC_2ghmUuyX--dvvnbMSSwuZssiXXUkd3QTmEXU0bGhIeBBg-iJMPzr0hpQE8ABpDEI4GD_XFxBl26xqFJKomZ_S3slgRXKKAo8L-V1y12h2x4vXee3RiDcYyjhglhsNX_0kjfa54xVWAp2CEj4x42RRUcinGv-VLPIKsXwSQzUMisrGrGGfyNEADTsBgVa7FmUHQ6cpB01FtTBGKnO0KBrhCM"/>
+<div class="p-6 flex flex-col flex-grow">
+<h3 class="text-xl font-bold mb-2">Project Management Tool</h3>
+<p class="text-[#111318]/80 dark:text-white/70 text-sm mb-4 flex-grow">A collaborative platform for teams to manage tasks, track progress, and communicate effectively.</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="text-xs font-semibold bg-primary/20 text-primary dark:text-white px-2 py-1 rounded-full">React</span>
+<span class="text-xs font-semibold bg-primary/20 text-primary dark:text-white px-2 py-1 rounded-full">Node.js</span>
+<span class="text-xs font-semibold bg-primary/20 text-primary dark:text-white px-2 py-1 rounded-full">MongoDB</span>
+</div>
+<div class="flex gap-4 mt-auto">
+<a class="text-sm font-bold text-primary hover:underline" href="#">Live Demo</a>
+<a class="text-sm font-bold text-primary hover:underline" href="#">GitHub</a>
+</div>
+</div>
+</div>
+<!-- Project Card 2 -->
+<div class="bg-white dark:bg-white/5 rounded-lg overflow-hidden shadow-md flex flex-col">
+<img class="w-full h-48 object-cover" data-alt="Screenshot of an e-commerce website" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDx5alGEyTnUxsFD1rysB-fR-HIi-tfw6nnGwV1rEsJc-qBLw_0ds0hUeToiI0E7GU3w199inmla_BQtII41NHA4k2jrx_JC15huOYxkmQb1Jj_1wMOctXQbHv2lDx3_KepmBQ2zb-AKByQvIV7VeOKQmvlc_sfY64wcAc88qBTWnHayIRmMI0ZvyQJ_S1Dt0HZQUF6WsN6F36oioNrkgloO-OBoqj18sNXuKv47BHn--mmvwUPRgUGTnsNYxoDpVLcxYwL9KSO1W4"/>
+<div class="p-6 flex flex-col flex-grow">
+<h3 class="text-xl font-bold mb-2">E-Commerce Platform</h3>
+<p class="text-[#111318]/80 dark:text-white/70 text-sm mb-4 flex-grow">A fully-featured online store with product listings, a shopping cart, and a secure checkout process.</p>
+<div class="flex flex-wrap gap-2 mb-4">
+<span class="text-xs font-semibold bg-primary/20 text-primary dark:text-white px-2 py-1 rounded-full">Next.js</span>
+<span class="text-xs font-semibold bg-primary/20 text-primary dark:text-white px-2 py-1 rounded-full">Stripe</span>
+<span class="text-xs font-semibold bg-primary/20 text-primary dark:text-white px-2 py-1 rounded-full">PostgreSQL</span>
+</div>
+<div class="flex gap-4 mt-auto">
+<a class="text-sm font-bold text-primary hover:underline" href="#">Live Demo</a>
+<a class="text-sm font-bold text-primary hover:underline" href="#">GitHub</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-20" id="contact">
+<h2 class="text-[#111318] dark:text-white/90 text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Contact Information</h2>
+<p class="text-[#111318]/80 dark:text-white/70 text-base font-normal leading-normal pb-8 pt-1 px-4">Call: 03123404876 | Email: usamamallah553@gmail.com | Location: Khairpur Mirs | CNIC: 45204-4803713-3</p>
+<form class="px-4 space-y-6">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<input class="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-white/5 focus:ring-2 focus:ring-primary focus:border-primary transition-colors" placeholder="Your Name" type="text"/>
+<input class="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-white/5 focus:ring-2 focus:ring-primary focus:border-primary transition-colors" placeholder="Your Email" type="email"/>
+</div>
+<input class="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-white/5 focus:ring-2 focus:ring-primary focus:border-primary transition-colors" placeholder="Subject" type="text"/>
+<textarea class="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-white/5 focus:ring-2 focus:ring-primary focus:border-primary transition-colors" placeholder="Your Message" rows="5"></textarea>
+<button class="flex min-w-[120px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-5 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors" type="submit">
+<span class="truncate">Send Message</span>
+</button>
+</form>
+</section>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full py-6 border-t border-gray-200/50 dark:border-gray-800/50">
+<div class="px-4 sm:px-10 md:px-20 lg:px-40 flex flex-col sm:flex-row items-center justify-between gap-4">
+<p class="text-sm text-gray-500 dark:text-gray-400">© 2024 All Rights Reserved at Usama</p>
+<div class="flex gap-4">
+<a class="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary" href="#">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.165 6.839 9.489.5.092.682-.218.682-.483 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.942.359.308.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary" href="#">
+<svg aria-hidden="true" class="h-6 w-6" fill="currentColor" viewbox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+</a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
